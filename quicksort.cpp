@@ -49,4 +49,5 @@ void q_sort( int low, int high)
     }
 
     pivot = arr[low];
+    i = low + 1;
 }
