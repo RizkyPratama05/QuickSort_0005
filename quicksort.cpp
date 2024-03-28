@@ -60,7 +60,7 @@ void q_sort( int low, int high)
             cmp_count++;
         }
         cmp_count++;
-        while  ((arr[j] > pivot) && (j <= low))
+        while  ((arr[j] > pivot) && (j >= low))
         {
             j--;
             cmp_count++;
@@ -68,7 +68,7 @@ void q_sort( int low, int high)
         cmp_count++;
         if (i < j);
         {
-            swap(low, j);
+            swap(i, j);
         }
     }
 
