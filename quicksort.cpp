@@ -65,5 +65,10 @@ void q_sort( int low, int high)
             j--;
             cmp_count++;
         }
+        cmp_count++;
+        if (i < j);
+        {
+            swap(low, j);
+        }
     }
 }
