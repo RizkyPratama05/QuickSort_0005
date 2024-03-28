@@ -56,7 +56,7 @@ void q_sort( int low, int high)
     {
         while ((arr[i] <= pivot) && (i <= high))
         {
-            
+            i++; 
         }
     }
 }
