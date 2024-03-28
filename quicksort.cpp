@@ -89,7 +89,7 @@ void display()
     cout << "Sorted Array" << endl;
     cout << "-----------------" << endl;
 
-    if (int i = 0; i < n; i++)
+    for (int i = 0; i < n; i++)
     {
         cout << arr[i] << " ";
     }
