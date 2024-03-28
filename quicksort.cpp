@@ -38,3 +38,13 @@ void swap(int x, int y)
     mov_count++;
 }
 
+
+void q_sort( int low, int high)
+{
+
+    int temp;
+    int pivot, i, j;
+    if (low > high) {
+        return;
+    }
+}
